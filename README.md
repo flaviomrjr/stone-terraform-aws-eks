@@ -33,6 +33,7 @@ No requirements.
 |------|-------------|------|---------|:--------:|
 | <a name="input_aws_account"></a> [aws\_account](#input\_aws\_account) | The AWS account for the EKS cluster | `string` | n/a | yes |
 | <a name="input_cidr_blocks"></a> [cidr\_blocks](#input\_cidr\_blocks) | The CIDR blocks for the EKS cluster | `list(string)` | n/a | yes |
+| <a name="input_cluster_admin"></a> [cluster\_admin](#input\_cluster\_admin) | The EKS cluster Admin | `string` | n/a | yes |
 | <a name="input_cluster_name"></a> [cluster\_name](#input\_cluster\_name) | The name of the EKS cluster | `string` | n/a | yes |
 | <a name="input_cluster_version"></a> [cluster\_version](#input\_cluster\_version) | The version of the EKS cluster | `string` | n/a | yes |
 | <a name="input_create_cert_acm"></a> [create\_cert\_acm](#input\_create\_cert\_acm) | Whether to create a certificate in ACM | `bool` | n/a | yes |

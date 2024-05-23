@@ -57,3 +57,8 @@ variable "vpc_name" {
   description = "The VPC for the EKS cluster"
   type        = string
 }
+
+variable "cluster_admin" {
+  description = "The EKS cluster Admin"
+  type        = string
+}
